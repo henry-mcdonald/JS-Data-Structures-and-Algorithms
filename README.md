@@ -20,8 +20,8 @@ The `Stack` class will need the following methods:
 
 | Method | Functionality |
 |--------|---------------|
-`isEmpty` | Returns True if stack is empty, False otherwise |
 `size` | Returns the (int) size of the stack |
+`isEmpty` | Returns True if stack is empty, False otherwise |
 `push` | Adds an item to the stack -- returns new size of the stack |
 `pop` | Removes an item from the stack -- returns new size of the stack |
 `peek` | Returns the first item in the stack but doesn't remove it |
@@ -39,8 +39,8 @@ The `Queue` class will need the following methods:
 
 | Method | Functionality |
 |--------|---------------|
-`isEmpty` | Returns True if the queue is empty, False otherwise |
 `size` | Returns the (int) size of the the queue |
+`isEmpty` | Returns True if the queue is empty, False otherwise |
 `enqueue` | Adds an item to the the queue -- returns new size of the queue |
 `dequeue` | Removes an item from the the queue -- returns new size of the queue|
 `peek` | Returns the first item in the the queue but doesn't remove it |
