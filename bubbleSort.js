@@ -3,3 +3,24 @@ const numbers = [ 413, 445, 403, 224, 157, 312, 785, 862, 602, 354, 90, 442, 458
 
 // Your bubble sort goes here
 
+function bubbleSort(arr){
+    const initialLength = arr.length
+    for(let i=0;i<initialLength;i++){
+
+        for(let j =0; j<initialLength-i -1;j++){
+
+            const n1 = arr[j]
+            const n2 = arr[j+1]
+            if(n1>n2){
+                arr[j] = n2
+                arr[j + 1] = n1
+            }
+        }
+    }
+
+    return(arr)
+}
+
+
+const sortedArray = bubbleSort(numbers)
+console.log(sortedArray)
